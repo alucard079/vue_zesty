@@ -1,0 +1,55 @@
+.global {
+    &-header {
+        color: white;
+        font-weight: 600;
+        font-size: 3rem;
+
+        @media (max-width: 768px) {
+            font-size: 2.5rem;
+        }
+
+        @media (max-width: 575.98px) {
+            font-size: 2rem;
+        }
+    }
+    &-btn-yellow {
+        background-color: $yellow !important;
+        border-color: $yellow !important;
+        color: black !important;
+        font-weight: 500 !important;
+    }
+    &-btn-black {
+        background-color: $black !important;
+        border-color: $black !important;
+        color: $yellow !important;
+        font-weight: 500 !important;
+    }
+    &-btn-white {
+        background-color: white !important;
+        border-color: white !important;
+        color: $yellow !important;
+        font-weight: 500 !important;
+    }
+}
+.card-img-left {
+    width: 50%;
+
+    @media (max-width: 575.98px) {
+        width: 100%;
+    }
+}
+.card-img, .card-img-top, .card-img-bottom {
+    flex-shrink: 0;
+    width: 35rem;
+    height: 18rem;
+}
+.card-title {
+    color: $yellow;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.card-subtitle {
+    color: $black!important;
+    font-weight: 500;
+    font-size: 1rem;
+}

@@ -1,0 +1,34 @@
+.about {
+    &-card-headline {
+        color: $yellow;
+        font-weight: 600;
+        font-size: 2rem;
+
+        @media (max-width: 768px) { 
+            font-size: 1.4rem;
+        }
+
+        @media (max-width: 575.98px) {
+            font-size: 1rem;
+        }
+    }
+    &-h-100 {
+        height: 100%;
+    }
+    &-card-content {
+        color: $black;
+        font-weight: 500;
+        font-size: 1.3rem;
+        line-height: 2.5rem;
+
+        @media (max-width: 768px) { 
+            font-size: 1rem;
+        }
+
+        @media (max-width: 575.98px) {
+            line-height: 1rem;
+            font-size: 0.8rem;
+        }
+    }
+}
+

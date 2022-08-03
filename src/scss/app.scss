@@ -1,0 +1,12 @@
+@import '../scss/variables.scss';
+@import '../scss/global.scss';
+@import '../scss/background.scss';
+@import '../scss/about.scss';
+
+body {
+    background-color: $yellow !important;
+}
+
+* {
+    font-family: 'Poppins';
+}
